@@ -1,0 +1,140 @@
+body {
+    background: #f1f1f1;
+	color:#444;}
+	
+ul{
+	list-style-type:none;
+	padding-left:0;}
+		
+	
+header{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+	padding: 20px 0;}	
+nav{
+    align-items: center;
+	display: flex;
+    height: 100%;
+	justify-content: flex-end;}
+nav ul{
+	list-style-type:none;
+	margin-bottom:0;
+	text-align:right;}
+nav ul li{
+	    display: inline-block;
+		margin-left:20px;}
+	
+	
+.all_forms{
+    background: #fff;
+    border: 1px solid #e5e5e5;
+	min-width: 255px;
+	padding:10px 20px 20px;}	
+table{width:100%;}
+thead th{font-weight:500;}
+
+.user_options label{display:block;}
+
+section.single_app,
+section.profile,
+section.sidebar,
+section.form_entries{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;}
+	
+section.sidebar textarea{
+	min-height:100px;
+	padding:5px;
+	width:100%;}	
+	
+.user_header{ position: relative;}	
+.user_header h2 span{display:block;}
+.vcard a{display:block;}	
+
+span.launch{color: #4183C4;}
+
+.form_approved{color:#21BA45;}
+.form_denied{color:#db2828;}
+
+#foster_panel,
+#adoptions_panel{margin-top:0;}
+
+.form_entries .search .input{width:100%;}
+
+.sidebar .notes .item{margin-bottom:20px;}
+.sidebar .application_entry .item{margin-bottom:5px;}
+
+.merge_user{
+	right:0;
+	position:absolute;
+	top:0;}
+	
+a.movedto_trash{color: #9F3A38;}	
+.launch{cursor:pointer;}
+
+.match .input,
+.resend_app .input{
+	margin-bottom:10px;
+	width:100%;}
+
+/** FORMS **/
+ table.widefat {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	    font-weight: 400;
+	   
+}
+
+.widefat thead tr th{
+        border-bottom: 1px solid #e1e1e1;
+	color: #32373c;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1em;
+	text-align:left;
+}
+td.entry-view-field-name {
+    font-weight: 700;
+    background-color: #EAF2FA;
+    border-bottom: 1px solid #FFF;
+    line-height: 1.5;
+    padding: 7px;
+}
+
+td.entry-view-field-value {
+    border-bottom: 1px solid #DFDFDF;
+    padding: 7px 7px 7px 40px;
+    line-height: 1.8;
+}
+
+td.entry-view-section-break {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #EEE;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 7px;
+}
+
+.desktop_only{display:block;}
+.mobile_only{display:none;}
+
+@media screen and (max-width:600px){
+	.ui.table thead{display:none!important;}
+	.ui.table[class*="right aligned"], 
+	.ui.table [class*="right aligned"],
+	.ui.table[class*="center aligned"], 
+	.ui.table [class*="center aligned"] {
+	    text-align: left;
+	}
+	
+	table td:before { content: attr(data-title); }
+
+	
+	.mobile_only{
+		display:block;
+		margin-bottom:20px;}
+	
+	.desktop_only{display:none;}	
+		
+}
